@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-us-national-archives",
+  "version": "0.1.0",
+  "description": "US National Archives Catalog (NARA): search the federal government's permanent records — descriptions of documents, photographs, film, maps and artifacts from every agency and presidential library, with direct links to the digitised page images where they exist.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-us-national-archives": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "us-national-archives"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-us-national-archives.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-dd5f47fabd8327d55b5c6094ba247a417834c58d8e0cc5052cda7b5dbbea9eb7",
+    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+  }
+}
