@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-us-national-archives",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "US National Archives Catalog (NARA): search the federal government's permanent records — descriptions of documents, photographs, film, maps and artifacts from every agency and presidential library, with direct links to the digitised page images where they exist.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-dd5f47fabd8327d55b5c6094ba247a417834c58d8e0cc5052cda7b5dbbea9eb7",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-bb8ef0b921aaf2c7c7010f8daed0b9b997bdb4ca35835f221ac99559173effc4",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
